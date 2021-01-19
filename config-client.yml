@@ -1,0 +1,12 @@
+name: cloud-client-config-base
+---
+spring: 
+  profiles: dev
+  application: 
+    name: myconfig-dev
+
+---
+spring: 
+  profiles: prod
+  application: 
+    name: myconfig-prod
