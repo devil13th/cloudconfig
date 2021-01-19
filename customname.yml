@@ -1,4 +1,4 @@
-name: cloud-client-config-base
+name: customname-base
 ---
 spring: 
   profiles: dev
