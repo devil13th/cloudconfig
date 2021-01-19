@@ -1,4 +1,16 @@
-girl:
-  age: 20
-  name: lili
-  bir: 2010-01-01
+spring: 
+  profiles: 
+    active: prod
+    
+name: cloud-config-base
+---
+spring: 
+  profiles: dev
+  application: 
+    name: myconfig-dev
+
+---
+spring: 
+  profiles: prod
+  application: 
+    name: myconfig-prod
