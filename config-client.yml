@@ -3,7 +3,7 @@ name: cloud-client-config-base
 spring: 
   profiles: dev
   application: 
-    name: myconfig-devaaaaa
+    name: myconfig-devaaaaaxx
 
 ---
 spring: 
